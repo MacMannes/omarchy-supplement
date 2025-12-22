@@ -1,3 +1,4 @@
 starship
 zsh
 zsh-antidote
+geekbench
