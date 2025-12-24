@@ -2,3 +2,5 @@ starship
 zsh
 zsh-antidote
 geekbench
+audiotube
+
