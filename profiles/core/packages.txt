@@ -1,3 +1,4 @@
+stow
 starship
 zsh
 zsh-antidote
