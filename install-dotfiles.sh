@@ -25,5 +25,6 @@ run cd ~/$REPO_NAME || exit 1
 run stow --adopt zsh
 run stow --adopt nvim
 run stow --adopt starship
+run stow --adopt hyprland
 
 run cd $ORIGINAL_DIR
