@@ -4,4 +4,5 @@ zsh
 zsh-antidote
 geekbench
 audiotube
+wget
 
