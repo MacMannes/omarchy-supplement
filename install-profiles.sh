@@ -10,7 +10,10 @@ if [[ ! -f "$CACHE_FILE" ]]; then
     exit 1
 fi
 
-read -a SELECTED_PROFILES <"$CACHE_FILE"
+SELECTED_PROFILES=()
+while IFS= read -r line || [[ -n "$line" ]]; do
+    SELECTED_PROFILES+=("$line")
+done <"$CACHE_FILE"
 
 step "Installing selected profiles"
 
